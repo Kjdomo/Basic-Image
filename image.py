@@ -32,7 +32,7 @@ def main(*, name,mode,images,save,display):
 		try:
 			temp_image = Image.open(image)
 		except IOError:
-			print("{val} is not a valid image file.".format(image))
+			print("{} is not a valid image file.".format(image))
 
 		if mode is None:
 			pass
